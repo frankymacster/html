@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		82E2CBDE1B95E044009A26D9 /* en */ = {isa = PBXFileReference; name = en; path = en.lproj/html.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		82E2CBD61B95E014009A26D9 = {
 			isa = PBXGroup;
 			children = (
+				82E2CBDF1B95E044009A26D9 /* html.html */,
 			);
 			sourceTree = "<group>";
 		};
@@ -35,6 +40,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXVariantGroup section */
+		82E2CBDF1B95E044009A26D9 /* html.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E2CBDE1B95E044009A26D9 /* en */,
+			);
+			name = html.html;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		82E2CBDB1B95E014009A26D9 /* Debug */ = {
