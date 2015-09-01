@@ -3,10 +3,11 @@
     <head>
         <title>Bootstrap Example</title>
         <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-                    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="modernizr.js"></script>
     </head>
     <body>
         
@@ -15,24 +16,24 @@
             <p>Panes</p>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="row-sm-3" style="background-color:lavender;">
+                    <div class="row-xs-3" style="background-color:lavender;">
                         <h2>iGuide</h2>
                     </div>
-                    <div class="row-sm-3" style="background-color:lavender;">
-                        <h2>Property description</h2>
+                    <div class="row-xs-3" style="background-color:lavender;">
+                        <h2>Property Description</h2>
                     </div>
-                    <div class="row-sm-3" style="background-color:lavender;">
-                        <h2>Room Dimensions / Area/ PDF</h2>
+                    <div class="row-xs-3" style="background-color:lavender;">
+                        <h2>Room Dimensions / Area / PDF</h2>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="row-sm-3" style="background-color:lavender;">
+                    <div class="row-xs-3" style="background-color:lavender;">
                         <h2>Title</h2>
                     </div>
-                    <div class="row-sm-3" style="background-color:lavender;">
+                    <div class="row-xs-3" style="background-color:lavender;">
                         <h2>Maps</h2>
                     </div>
-                    <div class="row-sm-3" style="background-color:lavender;">
+                    <div class="row-xs-3" style="background-color:lavender;">
                         <h2>Branding / Contact</h2>
                     </div>
                 </div>
@@ -40,6 +41,13 @@
                 <!-- brochures -->
             </div>
         </div>
+        <script>
+            if (Modernizr.canvas) {
+                alert("This browser supports HTML5 canvas!");
+            } else {
+                alert("no canvas :(");
+            }
+        </script>
         
     </body>
 </html>

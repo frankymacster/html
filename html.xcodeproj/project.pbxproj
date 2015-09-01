@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		82E2CBDE1B95E044009A26D9 /* en */ = {isa = PBXFileReference; name = en; path = en.lproj/html.html; sourceTree = "<group>"; };
+		82C93D0E1B95FD7A00DC42CD /* modernizr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = modernizr.js; sourceTree = "<group>"; };
+		82E2CBDE1B95E044009A26D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/html.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		82E2CBD61B95E014009A26D9 = {
 			isa = PBXGroup;
 			children = (
+				82C93D0E1B95FD7A00DC42CD /* modernizr.js */,
 				82E2CBDF1B95E044009A26D9 /* html.html */,
 			);
 			sourceTree = "<group>";
